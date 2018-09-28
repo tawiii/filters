@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eee;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+figure {
+  margin: 0;
+}
+
+.wrap {
+  width: 1200px;
+  margin: auto;
+}
+
+.filter {
+  /* width: 33.33%; */
+  padding: 20px;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.currency__title {
+  margin: 0 0 20px;
+}
+
+.price__field {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-star-o {
+  color: #FFD700;
+}
+
+.fa-star-o ~ span {
+  color: #FFD700;
+}
+
+.offer {
+  /* width: 65%; */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.offer__item {
+  background-color: #fff;
+  padding: 30px;
+  list-style-type: none;
+  margin: 0 0 24px;
+}
+
+.offer__box {
+  display: flex;
+}
+
+.offer__info {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer__img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: #f7f7f7;
+  border: 1px solid #eaeaea;
+  margin: 0 auto 20px;
+}
+
+.offer_rating {
+  text-align: center;
+}
+
+.offer__img img {
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  max-width:100%;
+  max-height: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.offer__address {
+  font-weight: bold;
+}
+
+.offer__rooms {
+  padding: 0 20px 0 0;
+  display: flex;
+}
+
+.offer__rooms_text, .offer__date_text {
+  padding: 0 0 0 10px;
+}
+
+.offer__date {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.loader {
+  margin: 100px 0 0;
+}
+
+.btn_loding .loader {
+  margin: 0;
+  min-width: 64px;
+}
